@@ -198,9 +198,8 @@ footer {
     font-size: 0.8em;
     
 }
-picture > img {
-    display: block;
-    margin: 0 auto;
+main img {
+    width: 100%;
 }
 
 footer > p {
