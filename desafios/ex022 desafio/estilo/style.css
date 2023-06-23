@@ -82,10 +82,10 @@ main {
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
+    background-color: white;
     box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
     border-end-end-radius: 10px;
     border-end-start-radius: 10px;
-    background-color: white;
 }
 main a {
     text-decoration: none;
