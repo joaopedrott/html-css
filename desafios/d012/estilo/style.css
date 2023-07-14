@@ -59,7 +59,9 @@ section {
     font-size: 3.5vw;
     font-family: var(--fonte3);
 }
-
+section >p {
+    padding-bottom: 2em;
+}
 section.normal {
     background-color: white;
     color: black;
@@ -78,7 +80,8 @@ section.imagem {
 section.imagem > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.253);
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
     
 
 }
@@ -89,6 +92,7 @@ section.imagem > p {
 }
 #img02 {
     background-image: url("../imagens/background002.jpg");
+    background-position: right bottom;
     
 }
 
