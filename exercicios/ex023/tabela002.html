@@ -12,14 +12,23 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         td,th {
             border: 1px solid black;
             padding: 10px;
         }
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
         thead, tfoot {
             background-color: gray;
             color: white;
+        }
+        thead > tr > th {
+            position: sticky;
+            top:-1px;
+            background-color: gray;
         }
         .numero {
             text-align: right;
@@ -71,7 +80,115 @@
                 <td>Rio de Janeiro</td>
                 <td class="numero">17 264 943</td>
             </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14 873 064</td>
+            </tr>
+            <tr>
+                <td>Parana</td>
+                <td class="numero">11 433 957</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="numero">11 377 239</td>
+            </tr>
             <!-- ... -->
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="numero">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14 873 064</td>
+            </tr>
+            <tr>
+                <td>Parana</td>
+                <td class="numero">11 433 957</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="numero">11 377 239</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="numero">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14 873 064</td>
+            </tr>
+            <tr>
+                <td>Parana</td>
+                <td class="numero">11 433 957</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="numero">11 377 239</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="numero">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14 873 064</td>
+            </tr>
+            <tr>
+                <td>Parana</td>
+                <td class="numero">11 433 957</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="numero">11 377 239</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="numero">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14 873 064</td>
+            </tr>
+            <tr>
+                <td>Parana</td>
+                <td class="numero">11 433 957</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="numero">11 377 239</td>
+            </tr>
         </tbody>
 
 
@@ -82,5 +199,11 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla minus vitae fuga deleniti, unde soluta aliquid maxime beatae quisquam ipsa esse dolorem recusandae? Officia laudantium, dolore ex quaerat iste omnis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta libero consequuntur quisquam, ex iure fugiat qui earum, architecto officia, illum officiis? Maxime cum facere id reprehenderit ipsum ad ex voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut minima cum assumenda omnis eos ipsa enim vero? Velit similique excepturi dolorum ab deserunt suscipit id minima, dolorem rerum, voluptate veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat odit ipsa recusandae, laboriosam impedit eos maxime voluptatibus numquam ab atque ducimus quae est tempore possimus labore facere illo error voluptatem.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla minus vitae fuga deleniti, unde soluta aliquid maxime beatae quisquam ipsa esse dolorem recusandae? Officia laudantium, dolore ex quaerat iste omnis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta libero consequuntur quisquam, ex iure fugiat qui earum, architecto officia, illum officiis? Maxime cum facere id reprehenderit ipsum ad ex voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut minima cum assumenda omnis eos ipsa enim vero? Velit similique excepturi dolorum ab deserunt suscipit id minima, dolorem rerum, voluptate veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat odit ipsa recusandae, laboriosam impedit eos maxime voluptatibus numquam ab atque ducimus quae est tempore possimus labore facere illo error voluptatem.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla minus vitae fuga deleniti, unde soluta aliquid maxime beatae quisquam ipsa esse dolorem recusandae? Officia laudantium, dolore ex quaerat iste omnis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta libero consequuntur quisquam, ex iure fugiat qui earum, architecto officia, illum officiis? Maxime cum facere id reprehenderit ipsum ad ex voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut minima cum assumenda omnis eos ipsa enim vero? Velit similique excepturi dolorum ab deserunt suscipit id minima, dolorem rerum, voluptate veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat odit ipsa recusandae, laboriosam impedit eos maxime voluptatibus numquam ab atque ducimus quae est tempore possimus labore facere illo error voluptatem.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla minus vitae fuga deleniti, unde soluta aliquid maxime beatae quisquam ipsa esse dolorem recusandae? Officia laudantium, dolore ex quaerat iste omnis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta libero consequuntur quisquam, ex iure fugiat qui earum, architecto officia, illum officiis? Maxime cum facere id reprehenderit ipsum ad ex voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut minima cum assumenda omnis eos ipsa enim vero? Velit similique excepturi dolorum ab deserunt suscipit id minima, dolorem rerum, voluptate veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat odit ipsa recusandae, laboriosam impedit eos maxime voluptatibus numquam ab atque ducimus quae est tempore possimus labore facere illo error voluptatem.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla minus vitae fuga deleniti, unde soluta aliquid maxime beatae quisquam ipsa esse dolorem recusandae? Officia laudantium, dolore ex quaerat iste omnis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta libero consequuntur quisquam, ex iure fugiat qui earum, architecto officia, illum officiis? Maxime cum facere id reprehenderit ipsum ad ex voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut minima cum assumenda omnis eos ipsa enim vero? Velit similique excepturi dolorum ab deserunt suscipit id minima, dolorem rerum, voluptate veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat odit ipsa recusandae, laboriosam impedit eos maxime voluptatibus numquam ab atque ducimus quae est tempore possimus labore facere illo error voluptatem.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla minus vitae fuga deleniti, unde soluta aliquid maxime beatae quisquam ipsa esse dolorem recusandae? Officia laudantium, dolore ex quaerat iste omnis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta libero consequuntur quisquam, ex iure fugiat qui earum, architecto officia, illum officiis? Maxime cum facere id reprehenderit ipsum ad ex voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut minima cum assumenda omnis eos ipsa enim vero? Velit similique excepturi dolorum ab deserunt suscipit id minima, dolorem rerum, voluptate veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat odit ipsa recusandae, laboriosam impedit eos maxime voluptatibus numquam ab atque ducimus quae est tempore possimus labore facere illo error voluptatem.</p>
 </body>
 </html>
